@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS1116-BSST
+D 8x8 serial LED driver
+K LED driver
+F http://ams.com/eng/content/download/16157/285353/file/AS1116_Datasheet_EN_v3.pdf
+$ENDCMP
+#
+#End Doc Library
