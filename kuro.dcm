@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ASEK-32.768kHz
+D Abracon 32.768kHz oscillator, 3.2x2.5mm
+K 32.768kHz oscillator
+F http://www.farnell.com/datasheets/700361.pdf
+$ENDCMP
+#
+#End Doc Library
