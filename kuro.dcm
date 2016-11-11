@@ -1,9 +1,43 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ASEK-32.768kHz
-D Abracon 32.768kHz oscillator, 3.2x2.5mm
-K 32.768kHz oscillator
-F http://www.farnell.com/datasheets/700361.pdf
+$CMP 74LVC2T45
+D Dual supply translating transceiver, 3 state
+K transceiver
+F http://www.nxp.com/documents/data_sheet/74LVC_LVCH2T45.pdf
+$ENDCMP
+#
+$CMP AVR-PDI-6A
+D Atmel PDI programming header
+K PDI
+$ENDCMP
+#
+$CMP KR3225Y
+D RTC with TCXO and 32.768kHz output
+K RTC TCXO 32.768kHz
+F http://www.kyocera-crystal.jp/eng/wp-content/uploads/2014/09/application_manual_e.pdf
+$ENDCMP
+#
+$CMP LM2731
+D Boost converter with internal switch
+K boost switching
+F http://www.ti.com/product/LM2731
+$ENDCMP
+#
+$CMP MCP2200
+D USB to USART / RS232 converter
+K USB USART RS232
+$ENDCMP
+#
+$CMP SN74LV07A
+D Hex buffers / drivers with open-drain outputs
+K hex buffer driver open drain
+F http://www.ti.com/lit/ds/symlink/sn74lv07a.pdf
+$ENDCMP
+#
+$CMP TPS782XX
+D Texas 150mA, 500nA Iq LDO
+K LDO linear regulator
+F http://www.ti.com/lit/ds/symlink/tps782.pdf
 $ENDCMP
 #
 $CMP KR3225Y
