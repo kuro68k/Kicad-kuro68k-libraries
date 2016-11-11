@@ -6,4 +6,10 @@ K 32.768kHz oscillator
 F http://www.farnell.com/datasheets/700361.pdf
 $ENDCMP
 #
+$CMP KR3225Y
+D Kyocera RTC with TCXO
+K RTC TCXO 32.768kHz
+F http://www.mouser.com/ds/2/40/kr3225y_e-514863.pdf
+$ENDCMP
+#
 #End Doc Library
