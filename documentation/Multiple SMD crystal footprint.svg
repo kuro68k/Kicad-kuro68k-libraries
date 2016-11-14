@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="302.11149"
-     inkscape:cy="561.57841"
+     inkscape:cx="307.16226"
+     inkscape:cy="545.17815"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -195,5 +195,23 @@
          x="325"
          y="429.86221"
          id="tspan4305">Gap: 2.4</tspan></text>
+    <g
+       id="g4326"
+       transform="translate(33.259838,-129.55509)">
+      <rect
+         y="602.36218"
+         x="150"
+         height="92.125984"
+         width="80.078743"
+         id="rect4307"
+         style="fill:#ff0000;fill-opacity:0.39215686;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.39053255" />
+      <rect
+         y="602.36218"
+         x="315"
+         height="92.125984"
+         width="80.078743"
+         id="rect4307-2"
+         style="fill:#ff0000;fill-opacity:0.39215686;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.39053255" />
+    </g>
   </g>
 </svg>
