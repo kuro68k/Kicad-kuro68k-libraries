@@ -11,6 +11,12 @@ D Atmel PDI programming header
 K PDI
 $ENDCMP
 #
+$CMP BSS138
+D N-Channel Enhancement Mode Field-Effect Transistor
+K N-channel FET
+F https://cdn.sparkfun.com/datasheets/BreakoutBoards/BSS138.pdf
+$ENDCMP
+#
 $CMP BSS84
 D P-Channel Enhancement Mode Field-Effect Transistor
 K P-channel FET
