@@ -11,16 +11,28 @@ D Atmel PDI programming header
 K PDI
 $ENDCMP
 #
+$CMP BSS84
+D P-Channel Enhancement Mode Field-Effect Transistor
+K P-channel FET
+F https://www.fairchildsemi.com/datasheets/BS/BSS84.pdf
+$ENDCMP
+#
 $CMP KR3225Y
-D RTC with TCXO and 32.768kHz output
+D Kyocera RTC with TCXO
 K RTC TCXO 32.768kHz
-F http://www.kyocera-crystal.jp/eng/wp-content/uploads/2014/09/application_manual_e.pdf
+F http://www.mouser.com/ds/2/40/kr3225y_e-514863.pdf
 $ENDCMP
 #
 $CMP LM2731
 D Boost converter with internal switch
 K boost switching
 F http://www.ti.com/product/LM2731
+$ENDCMP
+#
+$CMP MCP1640
+D 0.65V start-up synchronous boost regulator, SOT-23
+K boost regulator
+F www.microchip.com/datasheet/MCP1640
 $ENDCMP
 #
 $CMP MCP2200
@@ -38,12 +50,6 @@ $CMP TPS782XX
 D Texas 150mA, 500nA Iq LDO
 K LDO linear regulator
 F http://www.ti.com/lit/ds/symlink/tps782.pdf
-$ENDCMP
-#
-$CMP KR3225Y
-D Kyocera RTC with TCXO
-K RTC TCXO 32.768kHz
-F http://www.mouser.com/ds/2/40/kr3225y_e-514863.pdf
 $ENDCMP
 #
 #End Doc Library
