@@ -52,6 +52,12 @@ K hex buffer driver open drain
 F http://www.ti.com/lit/ds/symlink/sn74lv07a.pdf
 $ENDCMP
 #
+$CMP TPD4S009DBV
+D 4 Channel ESD protection
+K ESD
+F http://www.ti.com/lit/ds/symlink/tpd4s009.pdf
+$ENDCMP
+#
 $CMP TPS782XX
 D Texas 150mA, 500nA Iq LDO
 K LDO linear regulator
