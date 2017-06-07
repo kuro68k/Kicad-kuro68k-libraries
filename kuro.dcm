@@ -6,14 +6,21 @@ K transceiver
 F http://www.nxp.com/documents/data_sheet/74LVC_LVCH2T45.pdf
 $ENDCMP
 #
-$CMP AVR-ISP-6
-D Standard IDC6 Male Connector, ATMEL ISP 6pin
-K IDC6 Male Connector
+$CMP AS1116-BSST
+D Segment LED driver
+$ENDCMP
+#
+$CMP AVR-ISP-6A
+D Atmel SPI programming header
 $ENDCMP
 #
 $CMP AVR-PDI-6A
 D Atmel PDI programming header
 K PDI
+$ENDCMP
+#
+$CMP Am29F800B
+D 8Mb SRAM 8/16 bit
 $ENDCMP
 #
 $CMP BSS138
@@ -32,6 +39,10 @@ $CMP KR3225Y
 D Kyocera RTC with TCXO
 K RTC TCXO 32.768kHz
 F http://www.mouser.com/ds/2/40/kr3225y_e-514863.pdf
+$ENDCMP
+#
+$CMP KT3225T
+D Kyocera 32.768kHz TCXO
 $ENDCMP
 #
 $CMP LM1881
@@ -63,6 +74,10 @@ D USB to USART / RS232 converter
 K USB USART RS232
 $ENDCMP
 #
+$CMP RDA5807M
+D FM radio with RDA
+$ENDCMP
+#
 $CMP SN74LV07A
 D Hex buffers / drivers with open-drain outputs
 K hex buffer driver open drain
@@ -79,6 +94,12 @@ $CMP TPS782XX
 D Texas 150mA, 500nA Iq LDO
 K LDO linear regulator
 F http://www.ti.com/lit/ds/symlink/tps782.pdf
+$ENDCMP
+#
+$CMP XMEGA128A3U-A
+D TQFP64, 128k Flash, 8k Boot, 8k SRAM, 2k EEPROM, JTAG, USB
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://www.atmel.com/Images/Atmel-8386-8-and-16-bit-AVR-Microcontroller-ATxmega64A3U-128A3U-192A3U-256A3U_datasheet.pdf
 $ENDCMP
 #
 #End Doc Library
