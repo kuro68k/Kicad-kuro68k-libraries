@@ -6,6 +6,12 @@ K transceiver
 F http://www.nxp.com/documents/data_sheet/74LVC_LVCH2T45.pdf
 $ENDCMP
 #
+$CMP ARDUINO_NANO_V3
+D Arduino Nano V3
+K Arduino
+F http://download.arduino.org/products/NANO/Arduino%20Nano-Rev3.2-SCH.pdf
+$ENDCMP
+#
 $CMP AVR-PDI-6A
 D Atmel PDI programming header
 K PDI
