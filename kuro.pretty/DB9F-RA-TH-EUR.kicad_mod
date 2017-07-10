@@ -1,5 +1,5 @@
 (module DB9F-RA-TH-EUR (layer F.Cu) (tedit 595F771C)
-  (descr L77SDE09SA4CH4FC309)
+  (descr L77SDE09SA4CH)
   (tags D-sub)
   (fp_text reference REF** (at 0 5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
