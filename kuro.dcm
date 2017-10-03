@@ -7,12 +7,13 @@ F http://www.nxp.com/documents/data_sheet/74LVC_LVCH2T45.pdf
 $ENDCMP
 #
 $CMP ARDUINO_NANO_V3
-D Arduino Nano V3
+D Segment LED driver
 K Arduino
 F http://download.arduino.org/products/NANO/Arduino%20Nano-Rev3.2-SCH.pdf
+$ENDCMP
 #
-$CMP AS1116-BSST
-D Segment LED driver
+$CMP AT88SC118
+D Atmel CryptoCompanion
 $ENDCMP
 #
 $CMP AVR-ISP-6A
@@ -38,6 +39,11 @@ $CMP BSS84
 D P-Channel Enhancement Mode Field-Effect Transistor
 K P-channel FET
 F https://www.fairchildsemi.com/datasheets/BS/BSS84.pdf
+$ENDCMP
+#
+$CMP CD4007
+D Dual Complementary Pair Plus Inverter
+F http://cva.stanford.edu/classes/cs99s/datasheets/CD4007C.pdf
 $ENDCMP
 #
 $CMP KR3225Y
