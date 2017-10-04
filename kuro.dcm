@@ -14,6 +14,7 @@ $ENDCMP
 #
 $CMP AT88SC118
 D Atmel CryptoCompanion
+F www.atmel.com/Images/Atmel-8857-CryptoComp-AT88SC118-Datasheet.pdf
 $ENDCMP
 #
 $CMP AVR-ISP-6A
