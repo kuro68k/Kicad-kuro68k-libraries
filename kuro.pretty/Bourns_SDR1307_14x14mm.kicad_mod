@@ -1,0 +1,13 @@
+(module Bourns_SDR1307_14x14mm (layer F.Cu) (tedit 5B31031F)
+  (descr http://www.farnell.com/datasheets/1723200.pdf)
+  (fp_text reference REF** (at 0 -8) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "Bourns SDR1307 14x14mm" (at 0 8) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_arc (start 2 0) (end 6 -2) (angle 53.1) (layer F.SilkS) (width 0.35))
+  (fp_arc (start -2 0) (end -6 2) (angle 53.1) (layer F.SilkS) (width 0.35))
+  (pad 1 smd rect (at 0 -4.625) (size 14 4.75) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 4.625) (size 14 4.75) (layers F.Cu F.Paste F.Mask))
+)
