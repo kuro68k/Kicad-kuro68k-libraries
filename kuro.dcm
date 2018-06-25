@@ -96,6 +96,11 @@ K hex buffer driver open drain
 F http://www.ti.com/lit/ds/symlink/sn74lv07a.pdf
 $ENDCMP
 #
+$CMP SN74LVC1G86
+D Single XOR gate
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
+$ENDCMP
+#
 $CMP TPD4S009DBV
 D 4 Channel ESD protection
 K ESD
