@@ -107,6 +107,11 @@ K ESD
 F http://www.ti.com/lit/ds/symlink/tpd4s009.pdf
 $ENDCMP
 #
+$CMP TPS54302
+D 4.5-V to 28-V Input, 3-A Output, EMI Friendly Synchronous Step-Down Converter
+F http://www.ti.com/lit/ds/symlink/tps54302.pdf
+$ENDCMP
+#
 $CMP TPS782XX
 D Texas 150mA, 500nA Iq LDO
 K LDO linear regulator
