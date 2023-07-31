@@ -9,7 +9,7 @@
     (property "Footprint" "ebyte_cc1101:E07-900M10S" (at 0 -11.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.cdebyte.com/pdf-down.aspx?id=1332" (at 0 7.62 0)
+    (property "Datasheet" "https://www.cdebyte.com/pdf-down.aspx?id=1332" (at 0 -13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "CC1101 based module" (at 0 0 0)
@@ -26,6 +26,10 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
+      (pin no_connect line (at -7.62 -3.81 0) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
       (pin passive line (at -12.7 0 0) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
@@ -33,6 +37,10 @@
       (pin passive line (at -12.7 0 0) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -7.62 -3.81 0) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 12.7 7.62 180) (length 5.08)
         (name "GD02" (effects (font (size 1.27 1.27))))
@@ -85,6 +93,18 @@
       (pin passive line (at -12.7 0 0) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -7.62 -3.81 0) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -7.62 -3.81 0) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -7.62 -3.81 0) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at -12.7 7.62 0) (length 5.08)
         (name "VCC" (effects (font (size 1.27 1.27))))
