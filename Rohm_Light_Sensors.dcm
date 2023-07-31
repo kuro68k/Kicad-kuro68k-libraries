@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BH1751FVI
+D Ambient Light Sensor
+K light sensor
+F https://www.farnell.com/datasheets/1813321.pdf
+$ENDCMP
+#
+#End Doc Library
