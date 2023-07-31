@@ -1,9 +1,30 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LV07A
+D Hex buffers / drivers with open-drain outputs
+K hex buffer driver open drain
+F https://assets.nexperia.com/documents/data-sheet/74LV07A.pdf
+$ENDCMP
+#
 $CMP 74LVC2T45
 D Dual supply translating transceiver, 3 state
 K transceiver
 F http://www.nxp.com/documents/data_sheet/74LVC_LVCH2T45.pdf
+$ENDCMP
+#
+$CMP 74LX07
+D Hex Buffersand DriversWith Open-CollectorHigh-VoltageOutputs
+F http://www.ti.com/lit/ds/symlink/sn74ls07.pdf
+$ENDCMP
+#
+$CMP 74LX07_
+D Hex Buffersand DriversWith Open-CollectorHigh-VoltageOutputs
+F http://www.ti.com/lit/ds/symlink/sn74ls07.pdf
+$ENDCMP
+#
+$CMP AP3211
+D 1.4MHz  fixed  frequency,  current  mode,  PWM  buck (step-down)  DC-DC  converter
+F https://www.diodes.com/assets/Datasheets/AP3211.pdf
 $ENDCMP
 #
 $CMP ARDUINO_NANO_V3
@@ -26,8 +47,20 @@ D Atmel PDI programming header
 K PDI
 $ENDCMP
 #
+$CMP AVR-UPDI-6A
+D Atmel PDI programming header
+K PDI
+F https://microchipdeveloper.com/atmelice:updi
+$ENDCMP
+#
 $CMP Am29F800B
 D 8Mb SRAM 8/16 bit
+$ENDCMP
+#
+$CMP BAT54
+D Schottky diode
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf
 $ENDCMP
 #
 $CMP BSS138
@@ -45,6 +78,21 @@ $ENDCMP
 $CMP CD4007
 D Dual Complementary Pair Plus Inverter
 F http://cva.stanford.edu/classes/cs99s/datasheets/CD4007C.pdf
+$ENDCMP
+#
+$CMP ESP8266_Module
+D ESP8266 WiFi module with integrated antenna
+F https://components101.com/wireless/esp8266-pinout-configuration-features-datasheet
+$ENDCMP
+#
+$CMP IS42-45S81600F
+D IS42/45S81600F 128Mb 16MB 4Mx8x4 Banks
+F https://www.mouser.co.uk/datasheet/2/198/42-45S81600F-16800F-258526.pdf
+$ENDCMP
+#
+$CMP IS61WV20488FxLL
+D 2048x8 SRAM
+F https://www.mouser.co.uk/datasheet/2/198/61-64WV20488FALL-FBLL-1518520.pdf
 $ENDCMP
 #
 $CMP KR3225Y
@@ -90,15 +138,24 @@ $CMP RDA5807M
 D FM radio with RDA
 $ENDCMP
 #
-$CMP SN74LV07A
-D Hex buffers / drivers with open-drain outputs
-K hex buffer driver open drain
-F http://www.ti.com/lit/ds/symlink/sn74lv07a.pdf
+$CMP SG-3030JC
+D 32.768kHz crystal oscillator (SPXO)
+F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-3030CM
+$ENDCMP
+#
+$CMP SG-3030LC
+D 32.768kHz crystal oscillator (SPXO)
+F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-3030CM
 $ENDCMP
 #
 $CMP SN74LVC1G86
 D Single XOR gate
 F http://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
+$ENDCMP
+#
+$CMP SPERRY_SP-353
+D Beckman-Sperry SP-353 Panaplex Display
+K panaplex
 $ENDCMP
 #
 $CMP TPD4S009DBV
