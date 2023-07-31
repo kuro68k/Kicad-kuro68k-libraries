@@ -20,7 +20,7 @@
   (pad 1 thru_hole roundrect (at 13.9 0) (size 2 4.5) (drill oval 0.8 3.75) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
   (pad 2 thru_hole roundrect (at 7.7 0) (size 2 4) (drill oval 0.8 3.25) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
   (pad 2 thru_hole roundrect (at 10.7 4.7 90) (size 2 4) (drill oval 0.8 3.25) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
-  (model "${KILOCAL}/3D_Models/XKB DC-005-5A-2_0.stp"
+  (model "${KURO68K}/3D_Models/XKB DC-005-5A-2_0.stp"
     (offset (xyz 0 0 5.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
