@@ -1,0 +1,220 @@
+(footprint "VEML7700"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U**"
+		(at 0 -7.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9c9312f3-87db-407d-a120-c075a557aaf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VEML7700"
+		(at 0 -6.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "298c8bc7-80e5-4762-bf80-569ec282f9d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.vishay.com/docs/84286/veml7700.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aafdf51c-b2cd-403c-ad54-44fabf49e285")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5958fda9-21cd-4528-87a8-69954a52aa26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -3)
+		(end 3.5 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bad89c46-98e2-40b0-8897-4b8bd9bc6ed9")
+	)
+	(fp_line
+		(start -3.5 0)
+		(end -3.5 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "70388f30-0d69-4d5d-afe5-2809db4baac8")
+	)
+	(fp_line
+		(start -2.5 0)
+		(end -3.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ff721a3e-dbae-4604-98b2-5d587a681240")
+	)
+	(fp_line
+		(start 2.5 0)
+		(end 3.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c504710-afec-47ab-ac28-2a9193980fa5")
+	)
+	(fp_line
+		(start 3.5 -3)
+		(end 3.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df707fbf-ff11-401a-bc63-e7ad63174ad8")
+	)
+	(fp_rect
+		(start -3.75 -3.25)
+		(end 3.75 0.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cd395eba-56af-4174-9cd3-536da75839b9")
+	)
+	(fp_line
+		(start -3.4 -3)
+		(end -3.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03c32581-69b7-4c44-a3cc-815b280dfc1e")
+	)
+	(fp_line
+		(start -3.4 -3)
+		(end 3.4 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e4f4250-4184-4a72-9d02-dec21ef5f469")
+	)
+	(fp_line
+		(start -3.4 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "41e37db7-7a6d-4ce4-b409-d27000baed9b")
+	)
+	(fp_line
+		(start 3.4 -3)
+		(end 3.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fad22f8b-fb48-42b1-8073-795e89dee956")
+	)
+	(fp_line
+		(start 3.4 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9c1e068f-f7ff-4902-8a41-d8ced5f69321")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "af37530c-d177-4e6d-9a80-0af159a14ae5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.905 -0.7)
+		(size 0.7 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "699abe8a-36ad-46c6-a560-24957c1b2299")
+	)
+	(pad "2" smd rect
+		(at -0.635 -0.7)
+		(size 0.7 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "317e0a40-95bc-4265-a3cf-e80f231c3ce0")
+	)
+	(pad "3" smd rect
+		(at 0.635 -0.7)
+		(size 0.7 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "28344923-2cb9-4725-90d4-fa3d1d870188")
+	)
+	(pad "4" smd rect
+		(at 1.905 -0.7)
+		(size 0.7 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "84a14d20-9e57-48da-bcbb-ce6a6d155d67")
+	)
+	(embedded_fonts no)
+	(model "${KURO68K}/3D_Models/VEML7700.stp"
+		(offset
+			(xyz 0 1.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
